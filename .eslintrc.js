@@ -1,16 +1,20 @@
 module.exports = {
-    "extends": "standard",
-    "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
-        "no-tabs": [
-            "off"
+	'extends': 'standard',
+	'rules': {
+		'indent': [
+			'error',
+			'tab',
 		],
-		"comma-dangle": [
-            "error",
-			"always"
+		'no-tabs': [
+			'off',
 		],
-    },
-};
+		'comma-dangle': [
+			'error',
+			'always',
+		],
+		'semi': [
+			'error',
+			'never',
+		],
+	},
+}
