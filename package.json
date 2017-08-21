@@ -1,9 +1,16 @@
 {
+  "bin": {
+    "lint-flow": "bin/lint-flow.js"
+  },
   "name": "lint-flow",
   "version": "0.0.1",
   "description": "Run linters against git files and don't let 💩 slip into your code base!",
   "main": "index.js",
   "scripts": {
+    "lint:staged": "node bin/lint-flow --staged",
+    "lint:changed": "node bin/lint-flow --changed",
+    "lint:diff": "node bin/lint-flow --diff-with master",
+    "precommit": "npm run lint:staged",
     "test": "mocha"
   },
   "repository": {
@@ -24,6 +31,7 @@
     "eslint": "^4.5.0",
     "fs-extra": "^4.0.1",
     "get-stream": "^3.0.0",
+    "gulp-debug": "^3.1.0",
     "gulp-eslint": "^4.0.0",
     "gulp-html-postcss": "^7.0.1",
     "gulp-htmlhint": "^0.3.1",
@@ -33,6 +41,8 @@
     "gulp-tslint": "^8.1.2",
     "gulp-xo": "^0.16.0",
     "htmlhint": "^0.9.13",
+    "husky": "^0.14.3",
+    "is-ci": "^1.0.10",
     "nodegit": "^0.20.1",
     "proxyquire": "^1.8.0",
     "standard": "^10.0.3",
@@ -46,6 +56,7 @@
     "yargs": "^8.0.2"
   },
   "devDependencies": {
+    "debug": "^3.0.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
