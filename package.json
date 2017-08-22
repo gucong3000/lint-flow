@@ -42,6 +42,7 @@
     "gulp-xo": "^0.16.0",
     "husky": "^0.14.3",
     "is-ci": "^1.0.10",
+    "lazypipe": "^1.0.1",
     "nodegit": "^0.20.1",
     "proxyquire": "^1.8.0",
     "through2": "^2.0.3",
