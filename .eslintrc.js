@@ -1,6 +1,7 @@
 /*eslint sort-keys: "error"*/
 module.exports = {
 	'extends': 'standard',
+	'root': true,
 	'rules': {
 		'comma-dangle': [
 			'error',
