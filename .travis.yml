@@ -1,4 +1,10 @@
 sudo: false
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - libstdc++-4.9-dev
 language: node_js
 node_js:
   - "stable"
