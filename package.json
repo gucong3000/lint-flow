@@ -3,6 +3,13 @@
     "lint-flow": "bin/lint-flow.js"
   },
   "name": "lint-flow",
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "cache": true
+  },
   "version": "0.0.1",
   "description": "Run linters against git files and don't let 💩 slip into your code base!",
   "main": "index.js",
@@ -51,7 +58,7 @@
     "yargs": "^8.0.2"
   },
   "devDependencies": {
-    "eclint": "^2.4.2",
+    "eclint": "^2.4.3",
     "eslint": "^4.5.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
@@ -60,11 +67,6 @@
     "eslint-plugin-standard": "^3.0.1",
     "htmlhint": "^0.9.13",
     "mocha": "^3.5.0",
-    "nyc": "^11.1.0",
-    "standard": "^10.0.3",
-    "stylelint": "^8.0.0",
-    "tslint": "^5.6.0",
-    "typescript": "^2.4.2",
-    "xo": "^0.18.2"
+    "nyc": "^11.1.0"
   }
 }
