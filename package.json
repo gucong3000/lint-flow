@@ -36,6 +36,7 @@
   },
   "homepage": "https://github.com/gucong3000/lint-flow#readme",
   "dependencies": {
+    "diff": "^3.3.0",
     "fs-extra": "^4.0.1",
     "get-stream": "^3.0.0",
     "gulp-debug": "^3.1.0",
@@ -51,6 +52,7 @@
     "is-ci": "^1.0.10",
     "lazypipe": "^1.0.1",
     "nodegit": "^0.20.1",
+    "postcss": "^6.0.9",
     "proxyquire": "^1.8.0",
     "through2": "^2.0.3",
     "vinyl": "^2.1.0",
