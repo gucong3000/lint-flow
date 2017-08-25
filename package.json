@@ -1,0 +1,75 @@
+{
+  "bin": {
+    "lint-flow": "bin/lint-flow.js"
+  },
+  "name": "lint-flow",
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "cache": true
+  },
+  "version": "0.0.1",
+  "description": "Run linters against git files and don't let 💩 slip into your code base!",
+  "main": "index.js",
+  "scripts": {
+    "lint:changed": "npm run lint -- --changed",
+    "lint:staged": "npm run lint -- --staged",
+    "lint:diff": "npm run lint -- --diff-with master",
+    "lint": "node bin/lint-flow --debug",
+    "precommit": "npm run lint:staged",
+    "pretest": "npm run lint",
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gucong3000/lint-flow.git"
+  },
+  "keywords": [
+    "lint"
+  ],
+  "author": "gucong3000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gucong3000/lint-flow/issues"
+  },
+  "homepage": "https://github.com/gucong3000/lint-flow#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "diff": "^3.3.0",
+    "fs-extra": "^4.0.1",
+    "get-stream": "^3.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-html-postcss": "^7.0.1",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-if": "^2.0.2",
+    "gulp-reporter": "^2.3.0",
+    "gulp-standard": "^10.1.1",
+    "gulp-tslint": "^8.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-xo": "^0.16.0",
+    "is-ci": "^1.0.10",
+    "lazypipe": "^1.0.1",
+    "nodegit": "^0.20.1",
+    "postcss": "^6.0.9",
+    "proxyquire": "^1.8.0",
+    "through2": "^2.0.3",
+    "vinyl": "^2.1.0",
+    "vinyl-fs": "^2.4.4",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "eclint": "^2.4.3",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "htmlhint": "^0.9.13",
+    "husky": "^0.14.3",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0"
+  }
+}
