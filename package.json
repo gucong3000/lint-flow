@@ -36,10 +36,10 @@
   },
   "homepage": "https://github.com/gucong3000/lint-flow#readme",
   "dependencies": {
+    "chalk": "^2.1.0",
     "diff": "^3.3.0",
     "fs-extra": "^4.0.1",
     "get-stream": "^3.0.0",
-    "gulp-debug": "^3.1.0",
     "gulp-eslint": "^4.0.0",
     "gulp-html-postcss": "^7.0.1",
     "gulp-htmlhint": "^0.3.1",
@@ -47,8 +47,8 @@
     "gulp-reporter": "^2.2.1",
     "gulp-standard": "^10.1.0",
     "gulp-tslint": "^8.1.2",
+    "gulp-util": "^3.0.8",
     "gulp-xo": "^0.16.0",
-    "husky": "^0.14.3",
     "is-ci": "^1.0.10",
     "lazypipe": "^1.0.1",
     "nodegit": "^0.20.1",
@@ -68,6 +68,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "htmlhint": "^0.9.13",
+    "husky": "^0.14.3",
     "mocha": "^3.5.0",
     "nyc": "^11.1.0"
   }
