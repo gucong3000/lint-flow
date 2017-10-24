@@ -57,7 +57,7 @@
     "through2": "^2.0.3",
     "vinyl": "^2.1.0",
     "vinyl-fs": "^2.4.4",
-    "yargs": "^9.0.1"
+    "yargs": "^10.0.3"
   },
   "devDependencies": {
     "eclint": "^2.4.3",
