@@ -52,7 +52,7 @@
     "is-ci": "^1.0.10",
     "lazypipe": "^1.0.1",
     "nodegit": "^0.20.2",
-    "postcss": "^6.0.13",
+    "postcss": "^6.0.15",
     "proxyquire": "^1.8.0",
     "through2": "^2.0.3",
     "vinyl": "^2.1.0",
