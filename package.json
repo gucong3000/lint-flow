@@ -45,7 +45,7 @@
     "gulp-htmlhint": "^2.0.0",
     "gulp-if": "^2.0.2",
     "gulp-reporter": "^2.8.2",
-    "gulp-standard": "^10.1.1",
+    "gulp-standard": "^11.0.0",
     "gulp-tslint": "^8.1.2",
     "gulp-util": "^3.0.8",
     "gulp-xo": "^0.17.0",
