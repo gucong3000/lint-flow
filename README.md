@@ -20,13 +20,13 @@ This project contains a script that will run arbitrary npm and shell tasks with 
 1. `npm install --save-dev lint-flow husky`
 1. Install and setup your linters just like you would do normally. Add appropriate `.eslintrc`, `.stylelintrc`, etc.
 1. Update your `package.json` like this:
-  ```json
-  {
-    "scripts": {
-      "precommit": "lint-flow"
-    }
-  }
-  ```
+	```json
+	{
+		"scripts": {
+			"precommit": "lint-flow"
+		}
+	}
+	```
 
 Now change a few files, `git add` some of them to your commit and try to `git commit` them.
 
@@ -40,9 +40,9 @@ See [examples](#examples) and [configuration](#configuration) below.
 
 ```json
 {
-  "scripts": {
-    "precommit": "lint-flow eslint **/*.{js,jsx}"
-  }
+	"scripts": {
+		"precommit": "lint-flow eslint **/*.{js,jsx}"
+	}
 }
 ```
 
@@ -52,8 +52,8 @@ This will run `eslint --fix` and automatically add changes to the commit. Please
 
 ```json
 {
-  "scripts": {
-    "precommit": "lint-flow stylelint **/*.{css,scss}"
-  }
+	"scripts": {
+		"precommit": "lint-flow stylelint **/*.{css,scss}"
+	}
 }
 ```
