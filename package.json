@@ -67,7 +67,7 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-standard": "^4.0.0",
     "htmlhint": "^0.9.13",
     "husky": "^0.14.3",
     "mocha": "^5.2.0",
