@@ -54,7 +54,7 @@
     "lazypipe": "^1.0.1",
     "nodegit": "^0.22.2",
     "postcss": "^6.0.23",
-    "proxyquire": "^2.0.1",
+    "proxyquire": "^2.1.2",
     "through2": "^2.0.3",
     "vinyl": "^2.2.0",
     "vinyl-fs": "^3.0.3",
