@@ -52,7 +52,7 @@
     "gulp-xo": "^0.17.1",
     "is-ci": "^1.1.0",
     "lazypipe": "^1.0.1",
-    "nodegit": "^0.22.2",
+    "nodegit": "^0.26.2",
     "postcss": "^6.0.23",
     "proxyquire": "^2.0.1",
     "through2": "^2.0.3",
