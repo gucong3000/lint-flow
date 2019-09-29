@@ -70,7 +70,7 @@
     "eslint-plugin-standard": "^3.1.0",
     "htmlhint": "^0.9.13",
     "husky": "^0.14.3",
-    "mocha": "^5.2.0",
+    "mocha": "^6.2.1",
     "nyc": "^12.0.2"
   }
 }
