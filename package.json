@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/gucong3000/lint-flow#readme",
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^4.0.0",
     "diff": "^3.5.0",
     "file-type": "^8.0.0",
     "fs-extra": "^6.0.1",
